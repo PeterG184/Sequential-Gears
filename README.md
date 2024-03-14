@@ -19,6 +19,9 @@ Gear % Increase
 Mitigating Crosschaining
 - To stop crosschaining from occuring, the program will prioritise keeping the chain on the same side of each derailleur when determining the next gear to shift to.
 
+## Current Status
+Currently I am writing the outline of the software, effectively as a software based simulation to figure out how the algorithms behind deciding what gears to switch to are implemented. Once these are proven, and the hardware is acquired, much of the placehold 'shift gear' functions will be replaced with actual control of the stepper motor/servos.
+
 ## Building
 Build the program using 
 ```bash
